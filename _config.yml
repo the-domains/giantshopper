@@ -1,13 +1,25 @@
-layout_spectrum: 1
-typography_spectrum: 0.08767522
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.5148936
   brandStrength: 0.8468085
-  lightness: 0.6021277
+  lightness: 0.6042553
   brandColors:
     - '#FFFFFF'
     - '#597CA4'
     - '#D3DCE7'
     - '#859FBC'
   rhythmicContrast: 0.3234043
+typography_spectrum: 0.08767522
+layout_spectrum: 0.5404255
 name: Giantshopper
